@@ -1,5 +1,3 @@
-import string
-
 # get data from file
 
 file = open("data/movie_reviews.txt", "r")
