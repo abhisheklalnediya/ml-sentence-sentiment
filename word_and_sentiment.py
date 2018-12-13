@@ -30,7 +30,8 @@ for review in allreviews:
     if w not in words:
       words[w] = [1, point]
     else:
-      words[w][0] += point
-      words[w][1] += 1
+      words[w][0] += point  # point
+      words[w][1] += 1      # count
 
-print (words)
+for w in words:
+  print (w, words[w])
